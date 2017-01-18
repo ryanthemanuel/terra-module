@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import TerraModule from '../../src/TerraModule';
+import Module from '../../src/TerraModule';
 
-const defaultVariety = <TerraModule />;
-const primaryVariety = <TerraModule name="primary" variant="terra-Module--primary" />;
+const defaultVariety = <Module />;
+const primaryVariety = <Module name="primary" variant="terra-Module--primary" />;
 
 
 // Snapshot Tests

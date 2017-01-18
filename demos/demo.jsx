@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 import './demo.scss';
 
-import TerraModule from '../src/TerraModule';
+import Module from '../src/TerraModule';
 
-const defaultVariety = <TerraModule />;
-const primaryVariety = <TerraModule name="primary" variant="terra-Module--primary" />;
+const defaultVariety = <Module />;
+const primaryVariety = <Module name="primary" variant="terra-Module--primary" />;
 
 
 ReactDOM.render(defaultVariety, document.getElementById('terra-module-default'));

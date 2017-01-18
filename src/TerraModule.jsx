@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import path from 'path';
 import '../src/terra-module.scss';
 
-class TerraModule extends React.Component {
+class Module extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -36,16 +36,16 @@ class TerraModule extends React.Component {
   }
 }
 
-TerraModule.propTypes = {
+Module.propTypes = {
   name: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired,
 };
 
-TerraModule.defaultProps = {
+Module.defaultProps = {
   name: 'default',
   variant: 'terra-Module--default',
 };
 
 export const includePaths = path.join(__dirname, '../src/');
 
-export default TerraModule;
+export default Module;
