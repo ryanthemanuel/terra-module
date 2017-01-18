@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import classNames from 'classnames';
 import path from 'path';
-import './terra-module.scss';
+import '../src/terra-module.scss';
 
 class TerraModule extends React.Component {
   constructor() {
